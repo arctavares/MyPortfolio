@@ -1,8 +1,8 @@
 {
   "name": "github-page",
   "version": "0.1.0",
+  "homepage": "github-page/",
   "private": true,
-  "homepage": "GITHUB-PAGE/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
