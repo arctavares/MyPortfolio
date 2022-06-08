@@ -6,9 +6,17 @@
 }
 
 .navContainer {
-    border: 1px solid red;
-    width: 60%;
     display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+    width: 50%;
     justify-content: space-around;
     align-items: center;
+    list-style-type: none;
+}
+
+.navContainer li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
 }
