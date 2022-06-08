@@ -1,8 +1,12 @@
 import React from 'react';
+import '../css/Header.css';
 
 export default function Header () {
     return (
-        <h1>Header</h1>
+        <div className="headerContainer">
+            <div className="logoContainer"><h1>Logo</h1></div>
+            <div className="navContainer">nav</div>
+        </div>
     )
 }
 

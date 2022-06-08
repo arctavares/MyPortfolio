@@ -1,0 +1,14 @@
+.headerContainer {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+
+.navContainer {
+    border: 1px solid red;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
