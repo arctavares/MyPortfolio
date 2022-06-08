@@ -1,17 +1,17 @@
 * {
     margin: 0;
     padding: 0;
+    background-color:#0a192f;
+    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
 }
 
 .headerContainer {
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 1px solid black;
     height:8vh;
     align-items: center;
     background-color:#0a192f;
-    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
 }
 
 .navContainer {
