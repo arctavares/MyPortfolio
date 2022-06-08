@@ -1,0 +1,2 @@
+*{margin:0;padding:0}.headerContainer{justify-content:space-between;border:1px solid #000;height:8vh;background-color:#0a192f}.headerContainer,.navContainer{display:flex;flex-direction:row;align-items:center}.navContainer{width:50vh;margin-right:5vh;justify-content:space-around;list-style-type:none;color:#fff}.navContainer li{display:inline;padding-left:10px;padding-right:10px}.logoContainer{margin-left:10vh;color:#fff}.index{color:#ccd6f6}
+/*# sourceMappingURL=main.58bfd13b.chunk.css.map */
