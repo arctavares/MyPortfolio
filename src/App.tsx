@@ -3,16 +3,16 @@ import { Route, HashRouter, Routes } from 'react-router-dom';
 import './App.css';
 import Home from './pages/Home';
 
-function App() {
-  return (
-    <div className="App">
-      <HashRouter>
-        <Routes>
-          <Route element={  <Home />  } path='/' />
-        </Routes>
-      </HashRouter>
-    </div>
-  );
+class App extends React.Component {
+  render(){
+    return (
+      <div className="App">
+          <Routes>
+            <Route element={  <Home />  } path='/' />
+          </Routes>
+      </div>
+    );
+}
 }
 
 export default App;
