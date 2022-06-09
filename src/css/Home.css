@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color:#0a192f;
+    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+}
+
+.homeContainer {
+    height: 40vh;
+    color:white;
+    display:flex;
+    justify-content:center;
+}
+.introContainer {
+    margin-top: 17vh;
+    margin-right: 45vh;
+}
+
+.myName {
+    /* font-size: 8vh; */
+    font-size: clamp(40px, 8vw, 80px);
+    font-weight: 600;
+    line-height: 1.1;
+    color: #CCD6F6;
+}
+
+.introduction {
+    color: #64FFDA;
+    font-size: clamp(var(--fz-sm),5vw,var(--fz-md));
+}
+
+.introductionText {
+    color: #8892B0; 
+}
+
+.trybe {
+    color: #036b52;
+    font-weight: bold;
+}
