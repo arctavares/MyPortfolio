@@ -13,7 +13,7 @@
     display: flex;
     flex-direction: row;
     width: 50vh;
-    margin-right: 5vh;
+    margin-right: 10vh;
     justify-content: space-around;
     align-items: center;
     list-style-type: none;
@@ -38,4 +38,23 @@
 
 .index {
     color: #64FFDA;
+}
+
+/* smaller screens */
+
+@media screen and (max-width: 800px) {
+    .navContainer {
+        display: none;
+        border: 2px solid black;  
+    }
+
+    .headerContainer {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logoContainer {
+        margin: 0;
+        align-items: center;
+    }
 }

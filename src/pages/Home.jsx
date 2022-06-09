@@ -4,7 +4,7 @@ import '../css/Home.css';
 
 function Home() {
   return (
-    <>
+    <div className='body'>
       <Header />
       <div className="homeContainer">
           <div className="introContainer">
@@ -13,7 +13,7 @@ function Home() {
             <p className="introductionText">I'am a fullstack developer junior currently studying on <span className="trybe">Trybe</span></p>
           </div>
       </div>
-    </>
+    </div>
   );
 }
 
