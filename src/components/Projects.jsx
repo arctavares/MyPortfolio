@@ -3,8 +3,14 @@ import '../css/Projects.css';
 
 export default function Projects () {
     return (
-        <div className="projectsContainer">
-            <h1 className="subTitle">My Projects</h1>
-        </div>
+        <>
+            <h1 className="subTitleProject">My Projects</h1>
+            <div className="projectsContainer">
+                <div className="project"></div>
+                <div className="project"></div>
+                <div className="project"></div>
+                <div className="project"></div>
+            </div>
+        </>
     )
 };

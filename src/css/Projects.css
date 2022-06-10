@@ -7,8 +7,19 @@
     margin-top: 5vh;
 }
 
-.subTitle {
+.subTitleProject {
+    display: flex;
+    justify-content: center;
     line-height: 1.1;
+    margin-top: 2vh;
     margin-bottom: 2vh;
     color:#CCD6F6;
+    align-items: center;
+}
+
+.project {
+    border: 2px solid red;
+    width: 10vh;
+    height: 10vh;
+    margin: 5vh;
 }
