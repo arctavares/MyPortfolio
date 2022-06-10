@@ -1,0 +1,19 @@
+.aboutContainer {
+    /* border: 2px solid red; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subTitle {
+    line-height: 1.1;
+    margin-bottom: 2vh;
+    color:#CCD6F6;
+}
+
+.aboutText {
+    /* border: 2px solid white; */
+    width: 60%;
+    color:#8892B0;
+}

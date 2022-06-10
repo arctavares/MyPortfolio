@@ -1,0 +1,14 @@
+.projectsContainer {
+    border: 2px solid white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+
+.subTitle {
+    line-height: 1.1;
+    margin-bottom: 2vh;
+    color:#CCD6F6;
+}
