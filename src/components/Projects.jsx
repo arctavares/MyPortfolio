@@ -1,15 +1,12 @@
 import React from 'react';
 import '../css/Projects.css';
+import ProjectsCarousel from '../components/ProjectsCarousel'
 
 export default function Projects () {
     return (
         <>
-            <h1 className="subTitleProject">My Projects</h1>
             <div className="projectsContainer">
-                <div className="project"></div>
-                <div className="project"></div>
-                <div className="project"></div>
-                <div className="project"></div>
+                <ProjectsCarousel />
             </div>
         </>
     )
