@@ -1,5 +1,6 @@
 import { Carousel } from 'react-carousel-minimal';
 import projectsData from '../data/projects.json';
+import '../css/Projects.css';
 
 function ProjectsCarousel() {
 
@@ -36,7 +37,6 @@ function ProjectsCarousel() {
             slideImageFit="cover"
             thumbnails={true}
             thumbnailWidth="100px"
-            thumbnailHeight="100px"
             style={{
               textAlign: "center",
               maxWidth: "850px",

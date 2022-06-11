@@ -23,3 +23,9 @@
     height: 10vh;
     margin: 5vh;
 }
+
+.thumbnail {
+    margin: 0 5px !important;
+    height: 10vh !important;
+    width: 10vh !important;
+}
