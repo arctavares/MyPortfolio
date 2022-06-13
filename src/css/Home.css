@@ -1,23 +1,19 @@
 * {
     margin: 0;
     padding: 0;
-    background-color:#0a192f;
-    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+    background-color:var(--PageBackground);
+    font-family: var(--GlobalFont);
 }
 
 .homeContainer {
     height: 40vh;
-    color:white;
     display:flex;
     justify-content:center;
-    /* border: 2px solid green; */
     align-items:center;
     width: 100%;
 }
 .introContainer {
     margin: 15vh 15vh 10vh 10vh;
-    /* border: 2px solid white; */
-    /* min-width: 480px; */
 }
 
 .myName {
@@ -25,22 +21,22 @@
     font-weight: 600;
     line-height: 1.1;
     margin-top: 1vh;
-    color: #CCD6F6;
+    color: var(--TitleColor);
 }
 
 .introduction {
-    color: #64FFDA;
+    color: var(--NeonGreen);
     font-size: clamp(14px,5vw,16px);
 }
 
 .introductionText {
-    color: #8892B0; 
+    color: var(--TextColor); 
     line-height: 1.2;
     margin-top: 1vh;
 }
 
 .trybe {
-    color: #036b52;
+    color: var(--NeonGreen);
     font-weight: bold;
 }
 
@@ -52,12 +48,11 @@ body {
 }
 
 .closeParenthesis {
-    color:#64FFDA;
+    color: var(--NeonGreen);
 }
 
 @media screen and (max-width: 800px) {
     .homeContainer {
-        /* background-color: black; */
         justify-content: center;
         align-items: center;
     }

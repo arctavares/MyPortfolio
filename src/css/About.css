@@ -9,11 +9,11 @@
 .subTitle {
     line-height: 1.1;
     margin-bottom: 2vh;
-    color:#64FFDA;
+    color: var(--NeonGreen);
 }
 
 .aboutText {
     /* border: 2px solid white; */
     width: 60%;
-    color:#8892B0;
+    color:var(--TextColor);
 }
