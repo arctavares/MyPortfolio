@@ -11,6 +11,7 @@
     "@types/node": "^16.11.36",
     "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.5",
+    "bootstrap": "^5.2.0-beta1",
     "node-pre-gyp": "0.12.0",
     "react": "^17.0.0",
     "react-carousel-minimal": "^1.4.1",
