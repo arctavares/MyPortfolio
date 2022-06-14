@@ -9,6 +9,16 @@
   overflow-x: hidden;
   padding-top: 20px;
   margin-top: 6vh;
+  animation: show 3s backwards;
+}
+
+@keyframes show{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 
 .sidenav a {
