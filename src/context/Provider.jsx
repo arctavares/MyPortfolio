@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import context from '../context/context';
 
 function Provider({ children }) {
-  const [stateA, setStateA] = useState('initialStateA');
+  const [Nav, setNav] = useState('hide');
   const contextValue = {
-    stateA,
-    setStateA,
+    Nav,
+    setNav,
   };
 
   return (
