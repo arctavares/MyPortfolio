@@ -55,3 +55,25 @@
     font-size: 2em !important;
     text-shadow: 7px 7px 10px var(--PageBackground) !important;
 }
+
+.carousel-container {
+    max-width: fit-content !important;
+}
+
+.box {
+    max-width:fit-content !important;
+}
+
+@media screen and (max-width:940px) {
+    .box {
+        width: 500px !important;
+        height: 500px !important;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .box {
+        width: 300px !important;
+        height: 300px !important;
+    }
+}
