@@ -11,10 +11,12 @@ export default function ContactForm() {
           <form>
             <div class='form-row'>
               <div class='col'>
+              <label for='name'>Tell me your name</label>
                 <input
                   type='text'
                   class='form-control'
                   placeholder='name'
+                  id="name"
                 />
               </div>
             </div>

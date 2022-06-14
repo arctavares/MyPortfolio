@@ -15,7 +15,7 @@
     text-align: center;
 }
 
-.form-group {
+.form-group, .form-row {
     color: var(--NeonGreen);
 }
 
