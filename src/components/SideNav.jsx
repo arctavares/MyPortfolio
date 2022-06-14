@@ -13,7 +13,7 @@ export default function SideNav() {
     <div className={`sidenav ${Nav}`}>
       <button type="button" onClick={() => scroll('introContainer')}>About</button>
       <button type="button" onClick={() => scroll('projects')}>Projects</button>
-      <button type="button">Experience</button>
+      <button type="button" onClick={() => scroll('experience')}>Experience</button>
       <button type="button">Contact</button>
     </div>
   );
