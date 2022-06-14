@@ -5,6 +5,7 @@ import Projects from '../components/Projects';
 import Experience from '../components/Experience';
 import Footer from '../components/Footer';
 import SideNav from '../components/SideNav';
+import NavButton from '../components/NavButton';
 import '../css/Home.css';
 
 function Home() {
@@ -12,6 +13,7 @@ function Home() {
   const closeParenthesis = <span className="closeParenthesis">{`}`}</span>;
   return (
     <div className='body'>
+      <NavButton />
       <Header />
       <div className="homeContainer">
           <div className="introContainer">

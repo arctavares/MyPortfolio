@@ -4,10 +4,10 @@ import '../css/SideNav.css';
 export default function SideNav() {
   return (
     <div class='sidenav'>
-      <a href='#'>About</a>
-      <a href='#'>Projects</a>
-      <a href='#'>Work</a>
-      <a href='#'>Contact</a>
+      <a href='#t'>About</a>
+      <a href='#t'>Projects</a>
+      <a href='#t'>Work</a>
+      <a href='#t'>Contact</a>
     </div>
   );
 }

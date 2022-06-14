@@ -1,0 +1,54 @@
+.hamburgerIcon {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    overflow-x: hidden;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.firstLine {
+    width: 45px;
+    height: 5px;
+    background-color: var(--NeonGreen);
+    margin: 6px 0;
+    -webkit-transition: width 1s;
+}
+
+.secondLine {
+    width: 30px;
+    height: 5px;
+    background-color: var(--NeonGreen);
+    margin: 6px 0;
+    -webkit-transition: width 1s;
+}
+
+.thirdLine {
+    width: 20px;
+    height: 5px;
+    background-color: var(--NeonGreen);
+    margin: 6px 0;
+    -webkit-transition: width 1s;
+}
+
+.hamburgerIcon:hover .firstLine {
+    width:55px;
+    height:5px;
+    transition: width 1s;
+}
+
+.hamburgerIcon:hover .secondLine {
+    width:40px;
+    height:5px;
+    transition: width 1s;
+}
+
+.hamburgerIcon:hover .thirdLine {
+    width:30px;
+    height:5px;
+    transition: width 1s;
+}
