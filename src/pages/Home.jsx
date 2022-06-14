@@ -4,6 +4,7 @@ import About from '../components/About';
 import Projects from '../components/Projects';
 import Experience from '../components/Experience';
 import Footer from '../components/Footer';
+import SideNav from '../components/SideNav';
 import '../css/Home.css';
 
 function Home() {
@@ -19,6 +20,7 @@ function Home() {
             <p className="introductionText">I'am a fullstack developer junior currently studying on <span className="trybe">Trybe</span></p>
           </div>
       </div>
+      <SideNav />
       <About />
       <Projects />
       <Experience />
