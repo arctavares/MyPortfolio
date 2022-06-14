@@ -5,12 +5,16 @@ import context from '../context/context';
 export default function SideNav() {
   const { Nav } = useContext(context);
 
+  const scroll = (element) => {
+    return document.getElementById(element).scrollIntoView({block: 'start', behavior: 'smooth'})
+  }
+
   return (
     <div className={`sidenav ${Nav}`}>
-      <a href='#t'>About</a>
-      <a href='#t'>Projects</a>
-      <a href='#t'>Experience</a>
-      <a href='#t'>Contact</a>
+      <button type="button" onClick={() => scroll('introContainer')}>About</button>
+      <button type="button" onClick={() => scroll('projects')}>Projects</button>
+      <button type="button">Experience</button>
+      <button type="button">Contact</button>
     </div>
   );
 }

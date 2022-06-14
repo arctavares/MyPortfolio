@@ -9,8 +9,10 @@ export default function NavButton() {
     return Nav === 'hide' ? 'display' : 'hide';
   };
 
+
+  
   return (
-    <div className='hamburgerIcon' onClick={() => setNav(navStatus())}>
+    <div className='hamburgerIcon' onClick={() => setNav(navStatus)}>
       <div className='firstLine' id='line'></div>
       <div className='secondLine' id='line'></div>
       <div className='thirdLine' id='line'></div>

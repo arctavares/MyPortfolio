@@ -5,7 +5,7 @@ import ProjectsCarousel from '../components/ProjectsCarousel'
 export default function Projects () {
     return (
         <>
-            <div className="projectsContainer">
+            <div className="projectsContainer" id="projects">
                 <ProjectsCarousel />
             </div>
         </>
