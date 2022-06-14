@@ -1,0 +1,16 @@
+.ExperienceContainer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ExperienceTitle {
+    line-height: 1.1;
+    margin-bottom: 2vh;
+    color: var(--NeonGreen);
+}
+
+.experienceDescriptionContainer {
+    color: var(--TextColor);
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import About from '../components/About';
 import Projects from '../components/Projects';
+import Experience from '../components/Experience';
 import '../css/Home.css';
 
 function Home() {
@@ -19,6 +20,7 @@ function Home() {
       </div>
       <About />
       <Projects />
+      <Experience />
     </div>
   );
 }
