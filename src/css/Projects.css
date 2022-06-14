@@ -17,6 +17,11 @@
     align-items: center;
 }
 
+.carousel-caption-bottom {
+    color: var(--NeonGreen);
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+}
+
 .project {
     border: 2px solid red;
     width: 10vh;
@@ -28,4 +33,18 @@
     margin: 0 5px !important;
     height: 10vh !important;
     width: 10vh !important;
+    border-radius: 5px;
+}
+
+.active-thumbnail {
+    border: 2px solid var(--NeonGreen) !important;
+    box-shadow: 2px 3px 10px var(--NeonGreen);
+}
+
+.carousel-caption-top {
+    color: var(--NeonGreen) !important;
+    background-color: transparent !important;
+    text-shadow: 7px 7px 10px var(--PageBackground) !important;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: var(--PageBackground) !important;
 }
