@@ -1,15 +1,42 @@
 .footerContainer {
-    margin: 5vh auto;
-    text-align: center;
+  margin: 5vh auto;
+  text-align: center;
 }
 
 .footerText {
-    color: var(--NeonGreen);
+  color: var(--NeonGreen);
 }
 
 img {
-    width: 10vh;
-    height: 10vh;
-    margin: 0 2vh 0 2vh;
-    cursor: pointer;
+  width: 10vh;
+  height: 10vh;
+  margin: 0 2vh 0 2vh;
+  cursor: pointer;
+}
+
+.myEmail {
+  display: flex;
+  justify-content: center;
+  color: var(--NeonGreen);
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 5vh;
+  margin-bottom: 2vh;
+}
+
+.myEmail:link {
+  text-decoration: none;
+}
+
+.myEmail:visited {
+  text-decoration: none;
+}
+
+.myEmail:hover {
+  text-decoration: none;
+  color: var(--TitleColor);
+}
+
+.myEmail:active {
+  text-decoration: none;
 }
