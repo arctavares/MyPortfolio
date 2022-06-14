@@ -6,32 +6,10 @@
     justify-content: center;
     height:8vh;
     align-items: center;
-}
-
-.navContainer {
-    display: flex;
-    flex-direction: row;
-    width: 50vh;
-    margin-right: 10vh;
-    justify-content: space-around;
-    align-items: center;
-    list-style-type: none;
-    color: white;
-}
-
-.navContainer li {
-    display: inline;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.navContainer li:hover {
-    color: var(--NeonGreen);
-    cursor: pointer;
+    border: 5px solid red;
 }
 
 .logoContainer {
-    margin-left: 10vh;
     color: var(--NeonGreen);
 }
 
