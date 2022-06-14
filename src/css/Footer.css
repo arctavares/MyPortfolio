@@ -6,3 +6,10 @@
 .footerText {
     color: var(--NeonGreen);
 }
+
+img {
+    width: 10vh;
+    height: 10vh;
+    margin: 0 2vh 0 2vh;
+    cursor: pointer;
+}
