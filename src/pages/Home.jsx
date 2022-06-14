@@ -5,7 +5,7 @@ import Projects from '../components/Projects';
 import '../css/Home.css';
 
 function Home() {
-  const openParenthesis = <span >{`{`}</span>;
+  const openParenthesis = <span className="openParenthesis">{`{`}</span>;
   const closeParenthesis = <span className="closeParenthesis">{`}`}</span>;
   return (
     <div className='body'>

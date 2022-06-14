@@ -51,6 +51,11 @@ body {
     color: var(--NeonGreen);
 }
 
+.openParenthesis {
+    font-weight: 400;
+    font-size: 1.3em;
+}
+
 @media screen and (max-width: 800px) {
     .homeContainer {
         justify-content: center;
