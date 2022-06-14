@@ -64,10 +64,17 @@
     max-width:fit-content !important;
 }
 
+.carousel-image {
+    width: 850px !important;
+}
+
 @media screen and (max-width:940px) {
     .box {
         width: 500px !important;
         height: 500px !important;
+    }
+    .carousel-image {
+        width: 500px !important;
     }
 }
 
@@ -75,5 +82,8 @@
     .box {
         width: 300px !important;
         height: 300px !important;
+    }
+    .carousel-image {
+        width: 300px !important;
     }
 }
