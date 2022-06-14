@@ -13,7 +13,18 @@
 }
 
 .aboutText {
-    /* border: 2px solid white; */
-    width: 60%;
+    display: flex;
+    justify-content:center;
+    width: 50%;
+    font-size: 1.5em;
     color:var(--TextColor);
+}
+
+.aboutTextBottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    font-size: 1.2em;
+    color:var(--NeonGreen);
 }
