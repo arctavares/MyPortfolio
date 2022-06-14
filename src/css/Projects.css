@@ -48,3 +48,10 @@
     -webkit-text-stroke-width: 0.2px;
     -webkit-text-stroke-color: var(--PageBackground) !important;
 }
+
+.next , .prev{
+    color: var(--NeonGreen) !important;
+    background-color: transparent !important;
+    font-size: 2em !important;
+    text-shadow: 7px 7px 10px var(--PageBackground) !important;
+}
