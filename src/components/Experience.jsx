@@ -6,8 +6,8 @@ export default function Experience () {
         <div className="ExperienceContainer">
             <h1 className="ExperienceTitle">Experiencia</h1>
             <div className="experienceDescriptionContainer">
-                <p>De 2016 a 2019 - Cursei Engenharia da computação na Universidade Federal de Pelotas sem concluir </p>
-                <p>De 2021 a 2022 - Cursei o curso de desenvolvimento web fullstack na Trybe</p>
+                <p>( 2016 - 2019 ) - I studied Computer Engineering at the Federal University of Pelotas without graduating </p>
+                <p>( 2021 - 2022 ) - I took the fullstack web development course at Trybe</p>
             </div>
         </div>
     )
