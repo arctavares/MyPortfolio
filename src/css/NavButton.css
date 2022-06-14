@@ -16,7 +16,7 @@
     height: 5px;
     background-color: var(--NeonGreen);
     margin: 6px 0;
-    -webkit-transition: width 1s;
+    transition: width 1s;
 }
 
 .secondLine {
@@ -24,7 +24,7 @@
     height: 5px;
     background-color: var(--NeonGreen);
     margin: 6px 0;
-    -webkit-transition: width 1s;
+    transition: width 1s;
 }
 
 .thirdLine {
@@ -32,7 +32,7 @@
     height: 5px;
     background-color: var(--NeonGreen);
     margin: 6px 0;
-    -webkit-transition: width 1s;
+    transition: width 1s;
 }
 
 .hamburgerIcon:hover .firstLine {
