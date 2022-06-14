@@ -1,0 +1,8 @@
+.footerContainer {
+    margin: 5vh auto;
+    text-align: center;
+}
+
+.footerText {
+    color: var(--NeonGreen);
+}
