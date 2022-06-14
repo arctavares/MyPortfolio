@@ -52,3 +52,9 @@
     height:5px;
     transition: width 1s;
 }
+
+@media screen and (max-width: 850px) {
+    .hamburgerIcon {
+        display: none;
+    }
+}

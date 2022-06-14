@@ -9,7 +9,7 @@ export default function SideNav() {
     <div className={`sidenav ${Nav}`}>
       <a href='#t'>About</a>
       <a href='#t'>Projects</a>
-      <a href='#t'>Work</a>
+      <a href='#t'>Experience</a>
       <a href='#t'>Contact</a>
     </div>
   );
