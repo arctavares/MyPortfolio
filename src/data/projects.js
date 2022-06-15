@@ -1,7 +1,7 @@
-[
+const data = [
     {
         "caption": "Project Name",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/GoldenGateBridge-001.jpg/1200px-GoldenGateBridge-001.jpg"
+        "image": require('../project-images/recipes-app.png'),
     },
     {
         "caption": "Scotland",
@@ -36,3 +36,5 @@
         "image": "https://www.oyorooms.com/travel-guide/wp-content/uploads/2019/02/summer-7.jpg"
     }
 ]
+
+export default data;

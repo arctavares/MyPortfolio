@@ -1,5 +1,5 @@
 import { Carousel } from 'react-carousel-minimal';
-import projectsData from '../data/projects.json';
+import data from '../data/projects.js';
 import '../css/Projects.css';
 
 function ProjectsCarousel() {
@@ -20,7 +20,7 @@ function ProjectsCarousel() {
           padding: "0 20px"
         }}>
           <Carousel
-            data={projectsData}
+            data={data}
             time={3500}
             width="850px"
             height="500px"
