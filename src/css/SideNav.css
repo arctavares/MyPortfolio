@@ -7,8 +7,8 @@
   right: 0;
   background-color: transparent !important;
   overflow-x: hidden;
-  padding-top: 20px;
-  margin-top: 6vh;
+  padding-top: vh;
+  margin-top: 15vh;
   animation: show 3s backwards;
 }
 
