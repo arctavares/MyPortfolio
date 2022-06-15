@@ -8,7 +8,7 @@ export default function About() {
       <p className='aboutText'>
         I love development of software, the most enthusiastic thing to me is to bring ideas to life,
         my knowledge in programming is mainly JS, React, Node.js, Mysql, Docker and currently learning more,
-        my passion is to learn something every day, i am always seeking for knowledge.
+        my passion is to learn something new every day.
       </p>
       <p className='aboutTextBottom'>Powered by VS Code and caffeine.</p>
     </div>
