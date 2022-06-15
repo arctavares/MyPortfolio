@@ -54,6 +54,11 @@
     border-radius: 5px;
 }
 
+.thumbnails {
+    display: flex;
+    justify-content: center;
+}
+
 .active-thumbnail {
     border: 2px solid var(--NeonGreen) !important;
     box-shadow: 2px 3px 10px var(--NeonGreen);
