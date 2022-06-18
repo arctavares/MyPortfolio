@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/myPortfolio/static/css/main.152bea02.css",
-    "main.js": "/myPortfolio/static/js/main.2402f88f.js",
-    "static/media/recipes-app.png": "/myPortfolio/static/media/recipes-app.b6557c7a7e2e6201d7d8.png",
+    "main.css": "/myPortfolio/static/css/main.85bc220f.css",
+    "main.js": "/myPortfolio/static/js/main.0540ec6f.js",
+    "static/media/recipes-app.webp": "/myPortfolio/static/media/recipes-app.a5c754489b2a38b0cb0a.webp",
     "static/media/github.svg": "/myPortfolio/static/media/github.bbcdb4d987c5a7e5b49452ac0372cd28.svg",
     "index.html": "/myPortfolio/index.html",
     "static/media/linkedin.svg": "/myPortfolio/static/media/linkedin.93a4e6272cf9deeee95830aea2df7063.svg",
-    "main.152bea02.css.map": "/myPortfolio/static/css/main.152bea02.css.map",
-    "main.2402f88f.js.map": "/myPortfolio/static/js/main.2402f88f.js.map"
+    "main.85bc220f.css.map": "/myPortfolio/static/css/main.85bc220f.css.map",
+    "main.0540ec6f.js.map": "/myPortfolio/static/js/main.0540ec6f.js.map"
   },
   "entrypoints": [
-    "static/css/main.152bea02.css",
-    "static/js/main.2402f88f.js"
+    "static/css/main.85bc220f.css",
+    "static/js/main.0540ec6f.js"
   ]
 }
