@@ -1,7 +1,7 @@
 const data = [
     {
         "caption": "Project Name",
-        "image": require('../project-images/recipes-app.png'),
+        "image": require('../project-images/recipes-app.webp'),
     },
     {
         "caption": "Scotland",
